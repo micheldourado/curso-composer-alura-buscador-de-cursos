@@ -1,0 +1,25 @@
+{
+    "name": "micheldourado/buscador-cursos-alura",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "version": "1.0.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Michel Dourado"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "symfony/dom-crawler": "^7.0.4",
+        "symfony/css-selector": "^7.0"
+    },
+    "autoload": {
+        "psr-4":{
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "squizlabs/php_codesniffer": "^3.9"
+    }
+}
